@@ -1,0 +1,28 @@
+git config --global user.name ''isim''
+git config --global user.email ''mail''
+git config --list (listeyi gösterir)
+
+pwd (hangi dosya yolunda olduğunu gösterir)
+cd .. (bir üst klasöre gir)
+cd klasör adı (ismini girdiğin klasöre girer)
+cd desktop (masaüstüne gel)
+mkdir dosya ismi (dosya yolu oluştur)
+touch (klasör oluştur) /örnek touch index(klasörün adı).html
+ls (içinde bulunduğumuz klasörün içinde ne var)
+ls -a (gizli dosyalar dahil her şeyi gösterir
+git init (git ile ilgili özellikleri kullanmak için gizli bir git dosyası oluşturur)
+
+
+git status(commit yapmadığım şeyleri gösteriyor yani staging area ya göndermediğim)
+git add dosya adı (comit olmaya hazır hale gelir listeye ekler)
+git add . (tüm kırmızı olanları eklenmemişleri ekler)
+git commit -m ''herhangi bir yazı'' (commit eder) 
+
+
+git log (işlem geçmişi)
+git log --oneline (daha özet geçmiş)
+git checkout (commit id'si) -- . (girdiniz commite geri dönüyoruz bir şey sildiysen falan işe yarabilir)
+
+
+
+
